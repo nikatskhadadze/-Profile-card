@@ -1,0 +1,152 @@
+:root{
+    --background: hsla(185, 75%, 39%, 1);
+    --Name:hsla(228, 23%, 23%, 1);
+    --age:hsla(228, 10%, 47%, 1);
+    --city:hsla(228, 10%, 47%, 1);
+    --h3:hsla(228, 23%, 23%, 1);
+    --h4:hsla(228, 10%, 47%, 1);
+    --new1:hsla(228, 9%, 92%, 1);
+    --numbers:hsla(228, 23%, 23%, 1);
+    --sociality:hsla(228, 10%, 47%, 1);
+    
+
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+  font-size: 18px;
+  font-family: 'Kumbh Sans'sans-serif;
+  font-style: normal;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: var(--background);
+  width: 100%;
+ height: 100vh;
+  
+}
+.card{
+    background-image: url("./images/bg-pattern-card.svg" );
+    width: 350px;
+    height: 375px;
+    border-radius: 15px;
+    box-shadow: 0px 50px 100px -20px rgba(8, 70, 94, 0.504835);
+    background-color: #FFFFFF;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    
+    
+  
+}
+.images{
+   margin-top: 60px;
+   width: 96px;
+   height: 96px;
+   border: 0.5px solid #FFFFFF;
+   border-radius: 50%;
+   
+}
+.personal-information{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 8.5px;
+    padding: 24px 107px 13px 108px ;
+    
+}
+.Name{
+ font-weight:700;
+ font-size: 18px;
+ line-height:22.32px;
+ color: var(--Name);
+}
+.age{
+ Font-style: Bold ;
+ font-weight: 700;
+ Font-size: 18px ;
+ Line-height: 22px ;
+ color: var(--age);
+}
+.city{
+color: var(--city);
+Font-size: 14px;
+Line-height: 17px;
+Width:50px ;
+Height:14px;
+}
+.new1{
+margin-top: 24px;
+}
+hr.new1{
+border: 1px solid var(--new1);
+width: 100%;
+}
+
+
+.sociality {
+display: flex;
+gap: 64px;
+color: var(--sociality);
+}
+.numbers{
+display: flex;
+gap:57px;
+padding: 24px 56px 9px 65px;
+color: var(--numbers);
+}
+
+.Follower-numbers{
+Width:35px;
+Height:18px;
+font-Weight:700;
+font-size:18px;
+Line-height:22.32px;
+}
+.Likes-numbers{
+Width:46px;
+Height:18px;
+font-Weight:700;
+font-size:18px;
+Line-height:22.32px;
+}
+.Photos-numbers{
+    Width:38px;
+    Height:18px;
+    font-Weight:700;
+    font-size:18px;
+    Line-height:22.32px; 
+}
+.Followers{
+    Width:56px;
+    Height:10px;
+    font-Weight:400;
+    font-size:10px;
+    Line-height:12.4px; 
+    letter-spacing: 1.5px;
+
+
+}
+.Likes{
+    Width: 29px;
+    Height:10px;
+    font-Weight:400;
+    font-size:10px;
+    Line-height:12.4px; 
+    letter-spacing: 1.5px;
+}
+.Photos{
+    Width: 40px;
+    Height:10px;
+    font-Weight:400;
+    font-size:10px;
+    Line-height:12.4px; 
+    letter-spacing: 1.5px;
+}
